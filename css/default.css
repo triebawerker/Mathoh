@@ -1,4 +1,63 @@
 body {
     margin: 0;
-    padding: 0;
+    padding: 24px;
 }
+
+div#main {
+    width: 640px;
+    margin: 0 auto;
+}
+
+hr {
+    width: 90%;
+    margin: 40px auto;
+}
+
+section#input ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+section#input ul li {
+    height: 80px;
+}
+
+section#input ul li button {
+    width: 100px;
+    margin: 10px;
+}
+
+section#input ul li div.progress {
+    width: 400px;
+    display: inline-block;
+    margin: 10px 20px;
+}
+
+section#input ul li span {
+    font-size: small;
+    color: #999999;
+}
+
+p button {
+    margin: 0 20px;
+}
+
+footer {
+    text-align: center;
+    letter-spacing: 1px;
+    color: #666;
+    font-size: x-small;
+}
+
+/*
+<section id="input">
+<ul>
+<li>
+    <button>Start/stop</button>
+    <div class="progress">
+        <div class="bar" style="width: 60%;"></div>
+    </div>
+    <span>500 Hz</span>
+</li>
+*/
